@@ -1,0 +1,86 @@
+# -----------------------------
+# Go (Golang) build artifacts
+# -----------------------------
+# Binary executables
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# Build directories
+bin/
+build/
+dist/
+release/
+
+# Go workspace files (if using Go <1.18)
+pkg/
+
+# -----------------------------
+# IDEs and Editors
+# -----------------------------
+# VS Code
+.vscode/
+
+# JetBrains (GoLand)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Emacs / etc.
+*~
+*.swp
+*.swo
+.DS_Store
+
+# -----------------------------
+# Dependency / vendor management
+# -----------------------------
+# Modules cache
+vendor/
+
+# If using Go modules, keep go.mod and go.sum tracked
+# but ignore local module cache
+go.work
+go.work.sum
+
+# -----------------------------
+# Logs and temporary files
+# -----------------------------
+*.log
+*.tmp
+*.temp
+*.bak
+
+# -----------------------------
+# OS-specific files
+# -----------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# -----------------------------
+# Docker / Containers
+# -----------------------------
+docker-compose.override.yml
+.env
+.env.local
+.env.*.local
