@@ -1,14 +1,8 @@
 [
     {
-        "Title": "install nodejs",
-        "Completed": true,
-        "CompletedAt": "2025-10-17T12:49:08.3488895+03:30",
-        "CreatedAt": "2025-10-17T12:49:08.3488895+03:30"
-    },
-    {
-        "Title": "check_merge_request",
-        "Completed": true,
-        "CompletedAt": "2025-10-17T13:17:45.2339287+03:30",
-        "CreatedAt": "2025-10-17T12:49:08.3488895+03:30"
+        "Title": "complete_todo_cli_with_go",
+        "Completed": false,
+        "CompletedAt": null,
+        "CreatedAt": "2025-10-17T13:50:20.8968676+03:30"
     }
 ]
