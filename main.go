@@ -1,7 +1,12 @@
 package main
 
-import "fmt"
-
 func main() {
-	fmt.Println("This is todos application")
+	todos := Todos{}
+	storage := NewStorage[Todos]("todos.json")
+	storage.Load(&todos)
+	todos.add("install nodejs")
+	todos.add("check merge request")
+	todos.toggle(0)
+	todos.print()
+	storage.Save(todos)
 }
