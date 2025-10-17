@@ -6,9 +6,9 @@
         "CreatedAt": "2025-10-17T12:49:08.3488895+03:30"
     },
     {
-        "Title": "check merge request",
-        "Completed": false,
-        "CompletedAt": null,
+        "Title": "check_merge_request",
+        "Completed": true,
+        "CompletedAt": "2025-10-17T13:17:45.2339287+03:30",
         "CreatedAt": "2025-10-17T12:49:08.3488895+03:30"
     }
 ]
